@@ -1,0 +1,7 @@
+version: '3'
+services:
+  des-app-1:
+    build: .
+    container_name: des-app-1
+    stdin_open: true
+    tty: true
